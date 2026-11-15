@@ -11,6 +11,7 @@
 [ext_resource type="AudioStream" uid="uid://cc5goly1m3va7" path="res://Assets/music/limerence.mp3.mp3" id="7_ldgsr"]
 [ext_resource type="FontFile" uid="uid://cuhjqidghnmi2" path="res://Assets/fonts/PixelOperator8-Bold.ttf" id="8_v158k"]
 [ext_resource type="PackedScene" uid="uid://beedeurs7831u" path="res://animated_sprite_2d.tscn" id="10_ldgsr"]
+[ext_resource type="PackedScene" uid="uid://jh234shk3gaf" path="res://bullet.tscn" id="12_rku1e"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qxrlw"]
 texture = ExtResource("2_qxrlw")
@@ -654,11 +655,14 @@ position = Vector2(2088, 16)
 offset = Vector2(4, 4)
 
 [node name="Obsidian Knight" parent="." unique_id=375301494 instance=ExtResource("10_ldgsr")]
-position = Vector2(2217, 70.00001)
+position = Vector2(2203, 65.00001)
 scale = Vector2(1.65625, 1.6249999)
 
 [node name="Marker2D" type="Marker2D" parent="." unique_id=306579374]
-position = Vector2(1876, 67)
+position = Vector2(1872, 70)
 
 [node name="Marker2D2" type="Marker2D" parent="." unique_id=227272610]
-position = Vector2(2260, 69)
+position = Vector2(2304, 72)
+
+[node name="Area2D" parent="." unique_id=1980741437 instance=ExtResource("12_rku1e")]
+position = Vector2(2112, 76)

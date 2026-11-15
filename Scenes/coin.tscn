@@ -202,7 +202,6 @@ autoplay = "default"
 
 [node name="pickup" type="AudioStreamPlayer2D" parent="." unique_id=1272072717]
 stream = SubResource("AudioStreamWAV_jgi06")
-bus = &"Coin Pickup"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=819846089]
 unique_name_in_owner = true

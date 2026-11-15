@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://jh234shk3gaf"]
 
 [ext_resource type="Texture2D" uid="uid://ey6ns8tisgko" path="res://Assets/sprites/Bullet.png" id="1_v7oki"]
+[ext_resource type="Script" uid="uid://c7k6qkkwoa6gy" path="res://projectile.gd" id="1_v8qja"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lfwhk"]
 size = Vector2(56, 33.5)
 
 [node name="Area2D" type="Area2D" unique_id=1980741437]
+script = ExtResource("1_v8qja")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1380152374]
 position = Vector2(-2.9999924, -0.9999981)
